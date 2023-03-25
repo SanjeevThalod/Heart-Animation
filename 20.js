@@ -14,7 +14,6 @@ body.addEventListener('mousemove',(event)=>{
         ele.remove();
     },2000)
 });
-
 body.addEventListener('touchmove',function(){
     var x = event.touches[0].pageX;
     var y = event.touches[0].pageY;
